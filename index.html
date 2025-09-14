@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Web Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My Interactive Page</h1>
+  </header>
+
+  <!-- Section 1: A Form -->
+  <section>
+    <h2>Contact Us</h2>
+    <form id="contactForm" novalidate>
+      <label>
+        Name:
+        <input type="text" id="name" name="name">
+      </label><br>
+
+      <label>
+        Email:
+        <input type="email" id="email" name="email">
+      </label><br>
+
+      <label>
+        Message:
+        <textarea id="message" name="message"></textarea>
+      </label><br>
+
+      <button type="submit">Submit</button>
+      <p id="formError" class="error"></p>
+      <p id="formSuccess" class="success"></p>
+    </form>
+  </section>
+
+  <!-- Section 2: A Counter -->
+  <section>
+    <h2>Click Counter</h2>
+    <p>You've clicked the button <span id="counter">0</span> times.</p>
+    <button id="countButton">Click Me!</button>
+  </section>
+
+  <!-- Section 3: Toggle Light/Dark Mode -->
+  <section>
+    <h2>Theme Switcher</h2>
+    <button id="themeToggle">Toggle Dark Mode</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
