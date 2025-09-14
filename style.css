@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f7f7f7;
+  color: #222;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}
+
+.dark {
+  background-color: #222;
+  color: #f1f1f1;
+}
